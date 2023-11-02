@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@aws-sdk/client-rds": "^3.441.0",
+    "@aws-sdk/client-secrets-manager": "^3.441.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pg": "^8.11.3"
+  },
+  "scripts": {
+    "start": "nodemon pgConnect.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
